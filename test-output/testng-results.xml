@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="6" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="41712" started-at="2022-07-04T05:56:09Z" finished-at="2022-07-04T05:56:51Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="41712" started-at="2022-07-04T05:56:09Z" finished-at="2022-07-04T05:56:51Z">
+      <class name="com.vcentry.hml.testcase.LoginTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.vcentry.hml.testcase.LoginTest@2dc54ad4]" name="beforeSuite" is-config="true" duration-ms="9538" started-at="2022-07-04T05:55:59Z" finished-at="2022-07-04T05:56:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.vcentry.hml.testcase.LoginTest@2dc54ad4]" name="beforeTest" is-config="true" duration-ms="8" started-at="2022-07-04T05:56:09Z" finished-at="2022-07-04T05:56:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="loginWithValidCredentials()[pri:2, instance:com.vcentry.hml.testcase.LoginTest@2dc54ad4]" name="loginWithValidCredentials" duration-ms="6389" started-at="2022-07-04T05:56:09Z" finished-at="2022-07-04T05:56:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentials -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.vcentry.hml.testcase.LoginTest@2dc54ad4]" name="afterSuite" is-config="true" duration-ms="170" started-at="2022-07-04T05:56:52Z" finished-at="2022-07-04T05:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.vcentry.hml.testcase.LoginTest -->
+      <class name="com.vcentry.hml.testcase.AddDeleteEmp">
+        <test-method status="PASS" signature="addEmp()[pri:3, instance:com.vcentry.hml.testcase.AddDeleteEmp@4659191b]" name="addEmp" duration-ms="25924" started-at="2022-07-04T05:56:15Z" finished-at="2022-07-04T05:56:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmp -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.vcentry.hml.testcase.AddDeleteEmp@4659191b]" name="beforeTest" is-config="true" duration-ms="0" started-at="2022-07-04T05:56:15Z" finished-at="2022-07-04T05:56:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="deleteEmp()[pri:4, instance:com.vcentry.hml.testcase.AddDeleteEmp@4659191b]" name="deleteEmp" duration-ms="9327" started-at="2022-07-04T05:56:41Z" finished-at="2022-07-04T05:56:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteEmp -->
+      </class> <!-- com.vcentry.hml.testcase.AddDeleteEmp -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

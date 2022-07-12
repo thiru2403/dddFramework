@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.vcentry.hrm.base.ListernerClass"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.vcentry.hml.testcase.AddDeleteEmp">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="addEmp"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.vcentry.hml.testcase.AddDeleteEmp -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
