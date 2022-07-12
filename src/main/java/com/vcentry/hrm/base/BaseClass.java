@@ -26,6 +26,7 @@ public class BaseClass {
 public static WebDriver driver;
 public LoginPage login;
 public HomePage home;
+ String S =null;
 
 public static ExtentReports extent = new ExtentReports();
 public static ExtentSparkReporter spark = new ExtentSparkReporter("target/Spark.html");
